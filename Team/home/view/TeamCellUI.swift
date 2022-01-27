@@ -14,10 +14,10 @@ struct TeamCellUI: View {
             HStack{
                 Text(team.team ?? "")
                     .font(.headline)
-                   
+                
                 Spacer(minLength: 0)
-                Button{
-                    
+                NavigationLink{
+                    PlayersUI(team: team)
                 }label: {
                     Text("View All")
                         .frame(height: 44)
@@ -27,25 +27,37 @@ struct TeamCellUI: View {
                 
                 LazyHStack {
                     ForEach(team.players ?? [], id: \.self) {player in
+                        NavigationLink{
+                            PlayerUI(player: player)
+                        }label:{
+                        
                         Text(player.name ?? "")
                         
-                            .foregroundColor(Color("cardText"))
+                                //.foregroundColor(Color("cardText"))
+                                .bold()
+                                .foregroundColor(.black)
                             .padding()
                             .background(
                                 Color("card")
                                     .cornerRadius(AppConstants.corner.radius)
                             )
                     }
-                }.padding(.leading)
-            }
-            Divider().padding(.top)
+                }
+            }.padding(.leading)
         }
+        Divider().padding(.top)
     }
+}
 }
 
 struct TeamCellUI_Previews: PreviewProvider {
     static var previews: some View {
-        TeamCellUI(team: TeamModel.example)
-            .previewLayout(.fixed(width: 300.0, height: 200.0))
+        Group {
+            TeamCellUI(team: TeamModel.example)
+                .preferredColorScheme(.dark)
+                .previewLayout(.fixed(width: 300.0, height: 200.0))
+            TeamCellUI(team: TeamModel.example)
+                .previewLayout(.fixed(width: 300.0, height: 200.0))
+        }
     }
 }

@@ -20,6 +20,11 @@
 		0C429B0027A2E58A00E9F3A3 /* TeamVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429AFF27A2E58A00E9F3A3 /* TeamVM.swift */; };
 		0C429B0227A2EBCB00E9F3A3 /* TeamCellUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B0127A2EBCB00E9F3A3 /* TeamCellUI.swift */; };
 		0C429B0527A2EF7E00E9F3A3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B0427A2EF7E00E9F3A3 /* AppConstants.swift */; };
+		0C429B0827A2F19C00E9F3A3 /* PlayersUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B0727A2F19C00E9F3A3 /* PlayersUI.swift */; };
+		0C429B0B27A2F34300E9F3A3 /* PlayerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B0A27A2F34300E9F3A3 /* PlayerUI.swift */; };
+		0C429B0D27A2F4C800E9F3A3 /* RatingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B0C27A2F4C800E9F3A3 /* RatingUI.swift */; };
+		0C429B0F27A2F6F000E9F3A3 /* PlayersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B0E27A2F6F000E9F3A3 /* PlayersVM.swift */; };
+		0C429B1127A2F7AE00E9F3A3 /* PlayerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C429B1027A2F7AE00E9F3A3 /* PlayerVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		0C429AFF27A2E58A00E9F3A3 /* TeamVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamVM.swift; sourceTree = "<group>"; };
 		0C429B0127A2EBCB00E9F3A3 /* TeamCellUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCellUI.swift; sourceTree = "<group>"; };
 		0C429B0427A2EF7E00E9F3A3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0C429B0727A2F19C00E9F3A3 /* PlayersUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersUI.swift; sourceTree = "<group>"; };
+		0C429B0A27A2F34300E9F3A3 /* PlayerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUI.swift; sourceTree = "<group>"; };
+		0C429B0C27A2F4C800E9F3A3 /* RatingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingUI.swift; sourceTree = "<group>"; };
+		0C429B0E27A2F6F000E9F3A3 /* PlayersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersVM.swift; sourceTree = "<group>"; };
+		0C429B1027A2F7AE00E9F3A3 /* PlayerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,8 @@
 		0C429AC927A2DD6700E9F3A3 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				0C429B0927A2F33800E9F3A3 /* player */,
+				0C429B0627A2F17700E9F3A3 /* players */,
 				0C429B0327A2EF5700E9F3A3 /* utilities */,
 				0C429AF527A2DE3900E9F3A3 /* other */,
 				0C429AF427A2DE2F00E9F3A3 /* home */,
@@ -191,6 +203,25 @@
 				0C429B0427A2EF7E00E9F3A3 /* AppConstants.swift */,
 			);
 			path = utilities;
+			sourceTree = "<group>";
+		};
+		0C429B0627A2F17700E9F3A3 /* players */ = {
+			isa = PBXGroup;
+			children = (
+				0C429B0727A2F19C00E9F3A3 /* PlayersUI.swift */,
+				0C429B0E27A2F6F000E9F3A3 /* PlayersVM.swift */,
+			);
+			path = players;
+			sourceTree = "<group>";
+		};
+		0C429B0927A2F33800E9F3A3 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				0C429B0A27A2F34300E9F3A3 /* PlayerUI.swift */,
+				0C429B1027A2F7AE00E9F3A3 /* PlayerVM.swift */,
+				0C429B0C27A2F4C800E9F3A3 /* RatingUI.swift */,
+			);
+			path = player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,12 +355,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C429B0827A2F19C00E9F3A3 /* PlayersUI.swift in Sources */,
 				0C429AFE27A2E57F00E9F3A3 /* TeamUI.swift in Sources */,
+				0C429B0F27A2F6F000E9F3A3 /* PlayersVM.swift in Sources */,
 				0C429ACD27A2DD6700E9F3A3 /* ContentView.swift in Sources */,
 				0C429ACB27A2DD6700E9F3A3 /* TeamApp.swift in Sources */,
 				0C429AFA27A2E2B800E9F3A3 /* TeamModel.swift in Sources */,
 				0C429B0527A2EF7E00E9F3A3 /* AppConstants.swift in Sources */,
 				0C429B0227A2EBCB00E9F3A3 /* TeamCellUI.swift in Sources */,
+				0C429B0B27A2F34300E9F3A3 /* PlayerUI.swift in Sources */,
+				0C429B1127A2F7AE00E9F3A3 /* PlayerVM.swift in Sources */,
+				0C429B0D27A2F4C800E9F3A3 /* RatingUI.swift in Sources */,
 				0C429B0027A2E58A00E9F3A3 /* TeamVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
