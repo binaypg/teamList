@@ -1,0 +1,200 @@
+[
+    {
+        "uuid":"001",
+        "team": "Australia",
+        "players": [
+            {
+                "name": "Michael Clarke"
+            },
+            {
+                "name": "James Faulkner"
+            },
+            {
+                "name": "Aaron Finch"
+            },
+            {
+                "name": "Ryan Harris"
+            },
+            {
+                "name": "Mitchell Johnson"
+            },
+            {
+                "name": "Mitchell Marsh"
+            },
+            {
+                "name": "Peter Nevill"
+            },
+            {
+                "name": "Peter Siddle"
+            },
+            {
+                "name": "Mitchell Starc"
+            },
+            {
+                "name": "David Warner"
+            },
+            {
+                "name": "Pat Cummins"
+            },
+            {
+                "name": "Fawad Ahmed"
+            },
+            {
+                "name": "Brad Haddin"
+            },
+            {
+                "name": "Josh Hazlewood"
+            },
+            {
+                "name": "Nathan Lyon"
+            },
+            {
+                "name": "Shaun Marsh"
+            },
+            {
+                "name": "Chris Rogers"
+            },
+            {
+                "name": "Steven Smith"
+            },
+            {
+                "name": "Adam Voges"
+            },
+            {
+                "name": "Shane Watson"
+            }
+        ]
+    },
+    {
+        "uuid":"002",
+        "team": "Bangladesh",
+        "players": [
+            {
+                "name": "Arafat Sunny"
+            },
+            {
+                "name": "Imrul Kayes"
+            },
+            {
+                "name": "Jubair Hossain"
+            },
+            {
+                "name": " Liton Das"
+            },
+            {
+                "name": "Mahmudullah"
+            },
+            {
+                "name": "Mashrafe Mortaza"
+            },
+            {
+                "name": "Mohammad Shahid"
+            },
+            {
+                "name": "Mominul Haque"
+            },
+            {
+                "name": "Mushfiqur Rahim"
+            },
+            {
+                "name": "Mustafizur Rahman"
+            },
+            {
+                "name": "Nasir Hossain"
+            },
+            {
+                "name": "Rony Talukdar"
+            },
+            {
+                "name": "Rubel Hossain"
+            },
+            {
+                "name": "Sabbir Rahman"
+            },
+            {
+                "name": "Shakib Al Hasan"
+            },
+            {
+                "name": "Sohag Gazi"
+            },
+            {
+                "name": "Soumya Sarkar"
+            },
+            {
+                "name": "Taijul Islam"
+            },
+            {
+                "name": "Tamim Iqbal"
+            },
+            {
+                "name": "Taskin Ahme"
+            }
+        ]
+    },
+    {
+        "uuid":"003",
+        "team": "England",
+        "players": [
+            {
+                "name": "Moeen Ali"
+            },
+            {
+                "name": "James Anderson"
+            },
+            {
+                "name": "Jonny Bairstow"
+            },
+            {
+                "name": "Gary Ballance"
+            },
+            {
+                "name": "Ian Bell"
+            },
+            {
+                "name": "Sam Billings"
+            },
+            {
+                "name": "Stuart Broad"
+            },
+            {
+                "name": "Jos Buttler"
+            },
+            {
+                "name": "Alastair Cook"
+            },
+            {
+                "name": "Steven Finn"
+            },
+            {
+                "name": "Alex Hales"
+            },
+            {
+                "name": "Chris Jordan"
+            },
+            {
+                "name": "Adam Lyth"
+            },
+            {
+                "name": "Eoin Morgan"
+            },
+            {
+                "name": "Adil Rashid"
+            },
+            {
+                "name": "Joe Root"
+            },
+            {
+                "name": "Jason Roy"
+            },
+            {
+                "name": "Ben Stokes"
+            },
+            {
+                "name": "David Willey"
+            },
+            {
+                "name": "Mark Wood"
+            }
+        ]
+    }
+]
