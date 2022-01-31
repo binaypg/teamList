@@ -16,7 +16,7 @@ class TeamVM:ObservableObject{
     func getJsonData(){
         guard let url = Bundle.main.url(forResource: "teamData", withExtension: "json")
         else {
-            print("Json file not found")
+            print("Json file not found.")
             return
         }
         
